@@ -7,6 +7,7 @@ import com.company.problem.StableMariageSolver;
 public class Main {
 
     public static void main(String[] args) throws Exception {
+        system.out.println("hello");
         AssignementProblem problem = AssignementProblem.createRandomProblem(20, 3);
         problem.log();
         StableMariageSolver solver = new StableMariageSolver(problem);
